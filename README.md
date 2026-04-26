@@ -1,2 +1,29 @@
 <img width="527" height="289" alt="image" src="https://github.com/user-attachments/assets/e1ca6307-e965-4f0b-ac2d-f5e7e0dd685d" />
 <img width="529" height="83" alt="image" src="https://github.com/user-attachments/assets/6ffbc606-e8b9-4dc5-a27b-99c3549695d2" />
+# Active Directory Domain Services - Installation
+
+## Domaine créé
+- Domaine : `wilders.lan`
+- Serveur : `172.16.10.5`
+- Client joint au domaine : `PCDEYANN`
+
+---
+
+## 1. Vérification côté client
+Le client est bien joint au domaine `wilders.lan`.
+
+![Vérification du domaine côté client](client-domaine.png)
+
+---
+
+## 2. Rôle AD DS installé sur le serveur
+Le Gestionnaire de serveur montre que le rôle **Services de domaine Active Directory** est bien installé.
+
+![Rôle AD DS installé](server-manager-adds.png)
+
+---
+
+## 3. Client visible dans Active Directory
+La console **Utilisateurs et ordinateurs Active Directory** montre que le client **PCDEYANN** est bien présent dans le conteneur **Computers** du domaine `wilders.lan`.
+
+![Client dans le conteneur Computers](aduc-computers-client.png)
