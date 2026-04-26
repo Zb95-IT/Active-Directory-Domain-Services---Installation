@@ -1,4 +1,4 @@
-<img width="527" height="289" alt="image" src="https://github.com/user-attachments/assets/e1ca6307-e965-4f0b-ac2d-f5e7e0dd685d" />
+
 
 # Active Directory Domain Services - Installation
 
@@ -19,11 +19,12 @@ Le client est bien joint au domaine `wilders.lan`.
 ## 2. Rôle AD DS installé sur le serveur
 Le Gestionnaire de serveur montre que le rôle **Services de domaine Active Directory** est bien installé.
 
-![Rôle AD DS installé](server-manager-adds.png)
+<img width="996" height="388" alt="image" src="https://github.com/user-attachments/assets/a500dca4-870b-41c1-9a5c-270cff88dca7" />
+
 
 ---
 
 ## 3. Client visible dans Active Directory
 La console **Utilisateurs et ordinateurs Active Directory** montre que le client **PCDEYANN** est bien présent dans le conteneur **Computers** du domaine `wilders.lan`.
 
-![Client dans le conteneur Computers](aduc-computers-client.png)
+<img width="527" height="289" alt="image" src="https://github.com/user-attachments/assets/e1ca6307-e965-4f0b-ac2d-f5e7e0dd685d" />
